@@ -68,11 +68,8 @@
             true,
             "single"
         ],
-        "semicolon": {
-            "options": [
-                "always"
-            ]
-        },
+        "semicolon": false,
+        "no-unnecessary-semicolons": true,
         "space-before-function-paren": {
             "options": {
                 "anonymous": "never",
@@ -83,7 +80,7 @@
             }
         },
         "typedef": [
-            true,
+            false,
             "call-signature"
         ],
         "typedef-whitespace": {
@@ -109,6 +106,8 @@
                 "check-format",
                 "allow-pascal-case"
             ]
+
+
         },
         "whitespace": {
             "options": [
