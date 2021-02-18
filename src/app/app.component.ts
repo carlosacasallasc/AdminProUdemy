@@ -12,4 +12,5 @@ export class AppComponent {
   constructor(public _ajustes: SettingsService){
 
   }
+ 
 }
